@@ -28,7 +28,7 @@ describe 'Artist' do
       expect(Artist.all).to eq([artist, prince])
     end
   end
-
+  
   describe '#songs' do
     it 'lists all songs that belong to this artist' do
       artist = Artist.new('Michael Jackson')
